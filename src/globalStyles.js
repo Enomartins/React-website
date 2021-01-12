@@ -10,8 +10,9 @@ const GlobalStyle = createGlobalStyle `
 `;
 
 export const Container = styled.div `
-z-index: 1;
+z-index: 1; 
 width: 100%;
+max-width: 1300px;
 margin-left: auto;
 margin-right: auto;
 padding-right: 50px;
@@ -22,3 +23,7 @@ padding-left: 50px;
     padding-left: 30px;
 }
 `
+
+
+
+export default GlobalStyle
