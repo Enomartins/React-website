@@ -1,14 +1,18 @@
 import React from 'react'
-import { InfoSection } from '../../components'
 import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './Data'
+import { InfoSection } from '../../components'
+import app from '../../images/app.svg'
+import logo from '../../images/react.svg'
+import prog from '../../images/dev.svg'
+import vre from '../../images/vr.svg'
 
 const Home = () => {
     return (
         <>
-            <InfoSection {...homeObjOne} />
-            <InfoSection {...homeObjTwo} />
-            <InfoSection {...homeObjThree} />
-            <InfoSection {...homeObjFour} />
+            <InfoSection {...homeObjOne} img={logo} />
+            <InfoSection {...homeObjTwo} img={prog}/>
+            <InfoSection {...homeObjThree} img={app}/>
+            <InfoSection {...homeObjFour} img={vre}/>
         </>
     )
 }

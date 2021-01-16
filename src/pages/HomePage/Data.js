@@ -7,58 +7,63 @@ export const homeObjOne = {
     topLine: 'Marketing Agency',
     headline: 'Lead Generation Specialist for Online Businesses',
     description:
-        'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
+      'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
     buttonLabel: 'Get Started',
     imgStart: '',
-    img: require('../../images/app.svg'),
+    img: require('../../images/me.jpg'),
     alt: 'Credit Card',
     start: ''
-}
-
-export const homeObjTwo = {
+  };
+  
+  export const homeObjTwo = {
+    primary: true,
+    lightBg: false,
+    lightTopLine: true,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Instant Setup',
+    headline: 'Extremely quick onboarding process',
+    description:
+      "Once you've joined, our team of specialist will reach out to you and get you set up in minutes.",
+    buttonLabel: 'Learn More',
+    imgStart: '',
+    img: require('../../images/prog.svg'),
+    alt: 'Vault',
+    start: ''
+  };
+  
+  export const homeObjThree = {
+    primary: false,
     lightBg: true,
-    primary: true,
-    imgStart: '',
-    lightTopLine: true,
-    lightTextDesc: false,
-    buttonLabel: 'Get Started',
-    description: 'We help business owners increase their revenue. Our team of unique specialists can help you achieve your business goals',
-    headline: 'Lead Generation Specialista for Online Businesses',
+    lightTopLine: false,
     lightText: false,
-    topLine: 'Marketing Agency',
-    img: require('../../images/me.jpg'),
-    alt: 'Card',
-    start: ''
-}
-
-export const homeObjThree = {
-    lightBg: false,
-    primary: true,
-    imgStart: '',
-    lightTopLine: true,
-    lightTextDesc: true,
-    buttonLabel: 'Get Started',
-    description: 'We help business owners increase their revenue. Our team of unique specialists can help you achieve your business goals',
-    headline: 'Lead Generation Specialista for Online Businesses',
-    lightText: true,
-    topLine: 'Marketing Agency',
-    img: require('../../images/dev.svg'),
-    alt: 'Image',
-    start: ''
-}
-
-export const homeObjFour = {
-    lightBg: false,
-    primary: true,
-    imgStart: '',
-    lightTopLine: true,
-    lightTextDesc: true,
-    buttonLabel: 'Get Started',
-    description: 'We help business owners increase their revenue. Our team of unique specialists can help you achieve your business goals',
-    headline: 'Lead Generation Specialista for Online Businesses',
-    lightText: true,
-    topLine: 'Marketing Agency',
+    lightTextDesc: false,
+    topLine: 'Sarah Jeni',
+    headline:
+      'Ultra helped me increase my revenue by over 3X in less than 3 months!',
+    description:
+      "Their team is wonderful! I can't believe I didn't start working with them earlier.",
+    buttonLabel: 'View Case Study',
+    imgStart: 'start',
     img: require('../../images/react.svg'),
-    alt: 'Credit',
-    start: ''
-}
+    alt: 'Vault',
+    start: 'true'
+  };
+  
+  export const homeObjFour = {
+    primary: true,
+    lightBg: false,
+    lightTopLine: true,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Secure Database',
+    headline: 'All your data is stored on our secure server',
+    description:
+      'You will never have to worry about your information getting leaked. Our team of security experts will ensure your records are kept safe.',
+    buttonLabel: 'Sign Up Now',
+    imgStart: 'start',
+    img: require('../../images/vr.svg'),
+    alt: 'Vault',
+    start: 'true'
+  };
+  
